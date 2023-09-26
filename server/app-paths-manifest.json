@@ -1,0 +1,10 @@
+{
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/avantages/page": "app/avantages/page.js",
+  "/personalData/page": "app/personalData/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/simulateur/page": "app/simulateur/page.js",
+  "/cgu/page": "app/cgu/page.js",
+  "/solution/page": "app/solution/page.js"
+}

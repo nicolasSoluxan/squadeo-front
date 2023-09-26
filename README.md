@@ -1,0 +1,1 @@
+# squadeo-front

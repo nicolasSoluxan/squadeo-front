@@ -1,6 +1,6 @@
 {
   "type": "commonjs",
   "scripts": {
-    "start": "node page.js"
+    "start": "node layout.js"
   }
 }

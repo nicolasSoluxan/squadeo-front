@@ -1,0 +1,5 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {        "semi": ["error", "never"],        "quotes": ["error", "double"]    },
+  "env": {        "browser": true,        "node": true    }
+}

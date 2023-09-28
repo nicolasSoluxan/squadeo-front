@@ -1,0 +1,110 @@
+/* before scroll */
+
+.headerContainer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: #F5F5F5; 
+    padding: 1vw 8vw;
+    margin: 0px;
+    height: 6vw;
+}
+
+.logoContainer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.logoImage {
+    width: 80%;
+    height: auto;
+}
+
+.menuContainer{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color:#1A1A1A
+}
+
+.activeLink {
+    text-decoration: none;
+    color: #0A00A5;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.buttonContainer{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* after scroll */
+
+.headerScrolled{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 0vw 8vw;
+    margin: 0px;
+    height: 3vw;
+    background-color: #F5F5F5;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15) ;
+    transition: height 0.3s ease;;
+}
+
+.headerScrolled .logoImage {
+    width: 40%; 
+    transition: width 0.3s ease;;
+}
+
+.headerScrolled .link {
+    font-size: 1.1rem;
+    transition: font-size 0.3s ease;
+}
+
+.headerScrolled .activeLink {
+    font-size: 1.3rem; 
+    transition: font-size 0.3s ease;
+}
+
+.mainButtonScrolled{
+    width: fit-content;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color:#ffffff;
+    background-color: #0A00A5;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px 0px rgba(30, 30, 30, 0.25);
+    transition: font-size 0.3s ease , padding 0.3s ease;
+}
+  
+  .secondaryButtonScrolled{
+    width: fit-content;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color:#ffffff;
+    background-color: #E5236E;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px 0px rgba(30, 30, 30, 0.25);
+    transition: font-size 0.3s ease , padding 0.3s ease;
+  }
+

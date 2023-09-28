@@ -1,10 +1,5 @@
 {
   "type": "commonjs",
-  "dependencies": {
-    "next": "^13.5.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
